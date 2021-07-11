@@ -1,0 +1,21 @@
+.question:after {
+    display: block;
+    margin-top: 10px;
+    width: 120px;
+    height: 2px;
+    background-color: #00ab36;
+    content: '';
+}
+
+.choice{
+    border: 1px solid #ebebeb;
+    padding: 13px;
+    margin: 10px 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0 auto; 
+    width: 50%;
+}
