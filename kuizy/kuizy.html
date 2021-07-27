@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,94 +11,98 @@
 </head>
 
 <body>
+    <div class="introduction">
+        <h3>ガチで東京の人しか解けない！＃東京の難読地名クイズ</h3>
+    </div>
+    
     <div class="container">
         <h3 class="question">1.この地名はなんて読む？</h3>
-        <div><img src="images/takanawa.png" alt="高輪"></div>
+        <div class="quiz-image"><img src="images/takanawa.png" alt="高輪"></div>
         <div>
-            <div class="choice">こうわ</div>
-            <div class="choice">たかなわ</div>
-            <div class="choice">たかわ</div>
+            <div class="choice" id="fail1">こうわ</div>
+            <div class="choice" id="success">たかなわ</div>
+            <div class="choice" id="fail2">たかわ</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">2.この地名はなんて読む？</h3>
-        <div><img src="images/kameido.png" alt="亀戸"></div>
+        <div class="quiz-image"><img src="images/kameido.png" alt="亀戸"></div>
         <div>
-            <div class="choice">かめいど</div>
-            <div class="choice">かめと</div>
-            <div class="choice">かめど</div>
+            <div class="choice" id="success">かめいど</div>
+            <div class="choice" id="fail">かめと</div>
+            <div class="choice" id="fail">かめど</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">３.この地名はなんて読む？</h3>
-        <div><img src="images/kojimachi.png" alt="麹町"></div>
+        <div class="quiz-image"><img src="images/kojimachi.png" alt="麹町"></div>
         <div>
-            <div class="choice">おかとまち</div>
-            <div class="choice">かゆまち</div>
-            <div class="choice">こうじまち</div>
+            <div class="choice" id="fail">おかとまち</div>
+            <div class="choice" id="fail">かゆまち</div>
+            <div class="choice" id="success">こうじまち</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">4.この地名はなんて読む？</h3>
-        <div><img src="images/onarimon.png" alt="御成門"></div>
+        <div class="quiz-image"><img src="images/onarimon.png" alt="御成門"></div>
         <div>
-            <div class="choice">おなりもん</div>
-            <div class="choice">ごせいもん</div>
-            <div class="choice">おかどもん</div>
+            <div class="choice" id="success">おなりもん</div>
+            <div class="choice" id="fail">ごせいもん</div>
+            <div class="choice" id="fail">おかどもん</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">5.この地名はなんて読む？</h3>
-        <div><img src="images/todoroki.png" alt="等々力"></div>
+        <div class="quiz-image"><img src="images/todoroki.png" alt="等々力"></div>
         <div>
-            <div class="choice">たたりき</div>
-            <div class="choice">たたら</div>
-            <div class="choice">とどろき</div>
+            <div class="choice" id="fail">たたりき</div>
+            <div class="choice" id="fail">たたら</div>
+            <div class="choice" id="success">とどろき</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">6.この地名はなんて読む？</h3>
-        <div><img src="images/shukujii.png" alt="石神井"></div>
+        <div class="quiz-image"><img src="images/shakujii.png" alt="石神井"></div>
         <div>
-            <div class="choice">いじい</div>
-            <div class="choice">しゃくじい</div>
-            <div class="choice">せきこうい</div>
+            <div class="choice" id="fail">いじい</div>
+            <div class="choice" id="fail">しゃくじい</div>
+            <div class="choice" id="success">せきこうい</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">7.この地名はなんて読む？</h3>
-        <div><img src="images/zoushiki.png" alt="雑色"></div>
+        <div class="quiz-image"><img src="images/zoushiki.png" alt="雑色"></div>
         <div>
-            <div class="choice">ざっしき</div>
-            <div class="choice">ぞうしき</div>
-            <div class="choice">ざっしょく</div>
+            <div class="choice" id="fail">ざっしき</div>
+            <div class="choice" id="success">ぞうしき</div>
+            <div class="choice" id="fail">ざっしょく</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">8.この地名はなんて読む？</h3>
-        <div><img src="images/okachimachi.png" alt="御徒町"></div>
+        <div class="quiz-image"><img src="images/okachimachi.png" alt="御徒町"></div>
         <div>
-            <div class="choice">ごしろちょう</div>
-            <div class="choice">みとちょう</div>
-            <div class="choice">おかちまち</div>
+            <div class="choice" id="fail">ごしろちょう</div>
+            <div class="choice" id="fail">みとちょう</div>
+            <div class="choice" id="success">おかちまち</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">9.この地名はなんて読む？</h3>
-        <div><img src="images/shishibone.png" alt="鹿骨"></div>
+        <div class="quiz-image"><img src="images/shishibone.png" alt="鹿骨"></div>
         <div>
-            <div class="choice">ししぼね</div>
-            <div class="choice">ろっこつ</div>
-            <div class="choice">しこね</div>
+            <div class="choice" id="success">ししぼね</div>
+            <div class="choice" id="fail">ろっこつ</div>
+            <div class="choice" id="fail">しこね</div>
         </div>
     </div>
     <div class="container">
         <h3 class="question">10.この地名はなんて読む？</h3>
-        <div><img src="images/kogure.png" alt="小榑"></div>
+        <div class="quiz-image"><img src="images/kogure.png" alt="小榑"></div>
         <div>
-            <div class="choice">こばく</div>
-            <div class="choice">こしゃく</div>
-            <div class="choice">こぐれ</div>
+            <div class="choice" id="fail">こばく</div>
+            <div class="choice" id="fail">こしゃく</div>
+            <div class="choice" id="success">こぐれ</div>
         </div>
     </div>
 

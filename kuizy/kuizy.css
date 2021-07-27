@@ -16,6 +16,32 @@
 }
 
 .container{
-    margin: 0 auto; 
+    margin: 50px auto; 
     width: 50%;
 }
+
+.introduction{
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.quiz-image{
+    display: block;
+    width: 60%
+}
+
+.successbox{
+    background: #387DFF;
+    color: white;
+}
+
+.failbox{
+    background: #ff5128;
+    color: white;
+}
+
+.cantclick{
+    pointer-events: none;
+  }
