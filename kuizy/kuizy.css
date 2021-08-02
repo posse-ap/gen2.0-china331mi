@@ -45,3 +45,35 @@
 .cantclick{
     pointer-events: none;
   }
+
+.quiz-result{
+    display: block;
+    background: #F5F5F5;
+}
+
+.quiz-result-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 3px solid #287dff;
+}
+
+.quiz-false{
+    display: block;
+    background: #F5F5F5;
+}
+
+.quiz-false-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 3px solid #ff5128;
+}
+
+
