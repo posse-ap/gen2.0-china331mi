@@ -47,7 +47,7 @@
   }
 
 .quiz-result{
-    display: block;
+    display: none;
     background: #F5F5F5;
 }
 
