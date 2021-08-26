@@ -9,6 +9,7 @@ document.getElementById('success').addEventListener('click', () => {
 
 document.getElementById('fail1').addEventListener('click', () => {
     document.getElementById('fail1').classList.add('failbox');
+    document.getElementById('success').classList.add('successbox');
     document.getElementById('success').classList.add('cantclick');
     document.getElementById('fail2').classList.add('cantclick');
     document.getElementById('fail1').classList.add('cantclick');
@@ -28,6 +29,16 @@ function clickanswer(){
         quizresult.style.display="none";
     }else{
         quizresult.style.display="block";
+    }
+}
+
+function clickfalse1(){
+    const quizfalse = document.getElementById('quizfalse');
+
+    if(quizfalse.style.display=="block"){
+        quizfalse.style.display="none";
+    }else{
+        quizfalse.style.display="block";
     }
 }
 
